@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* 
+nike color 
+*/
+
+html, body {
+    font-size: 20px;
+} 
+body{
+background-color:rgb(50,51,102);
+}
+header img {
+	float: none;
+	width: 98%;
+	margin: 1% 1% 1% 1%;
+}
+
+article img{
+    float: left;
+    margin: 0 10px 10px 10px;
+    border-radius: 50px;
+    width: 270px;
+    height: 220px;
+}
