@@ -9,25 +9,25 @@ CREACION DE LA TABLA
 
 
 /* Ancho de celda*/
-    nav ul li {
-        display: table-cell;
-        width: 3%;
-        text-align: center;
-        border: thin solid black;
-        
-    }
+nav ul li {
+    display: table-cell;
+    width: 3%;
+    text-align: center;
+    border: thin solid black;
+    
+}
 
 /*Ancho de la tabla*/
-    nav {
-        display: table;
-        width: 100%;
-        margin:3;
-    }
+nav {
+    display: table;
+    width: 100%;
+    margin:3;
+}
 /*Tipo de Tabla*/
-    nav ul {
-        display: table-row;
-        margin: 5;
-    }
+nav ul {
+    display: table-row;
+    margin: 5;
+}
 
 
     footer {
@@ -97,7 +97,14 @@ CREACION DE LA TABLA
         margin-top: 50px;
         border: thin solid black;
     }
-
+    .AClub img{
+        float: left;
+        margin: 0 10px 10px 10px;
+        border-radius: 50px;
+        width: 270px;
+        height: 220px;
+    }
+ 
 
     /*Segundo Articulo*/
     .K1{
@@ -133,6 +140,13 @@ CREACION DE LA TABLA
         margin-top: 50px;
         border: thin solid black;
     }
+    .Koeman img{
+        float: left;
+        margin: 0 0px 0px 0px;
+        border-radius: 50px;
+        width: 270px;
+        height: 150px;
+    }
 
     /*Section 2 */
     /*Imagenes*/
@@ -159,3 +173,6 @@ CREACION DE LA TABLA
         margin-top: 50px;
         border: thin solid black;
     }
+
+
+    /*--------------------------------------------------------------------------------------------------------------------------*/

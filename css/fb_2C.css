@@ -1,0 +1,104 @@
+@charset "utf-8";
+body{
+    background-color:rgb(50,51,102);
+    }
+
+    header img {
+        float: none;
+        width: 98%;
+        margin: 2% 2% 2% 2%;
+    }
+
+article{
+    margin-right: 55px;
+    width: 70%;
+    height: 600px;
+    background-color: red;
+    float: right;
+    border:  thin solid black;
+    position: relative;
+}
+
+aside{
+    margin-left: 50px;
+    width: 20%;
+    height: 400px;
+    background-color:rgb(50,51,102);
+    float: left;
+
+}
+
+.Pedri img{
+    width: 300px;
+    height: 230px;
+}
+.Dest img{
+    width: 300px;
+    height: 200px;
+}
+/*-----------------------------------------------*/
+
+    /*Fichajes*/
+    .PedriTexto {
+        font-size: 30px;
+    }
+    .PedriTitulo{
+        border: thin solid black;
+        background: rgb(248,186,40);
+        font-size: 40px;
+        text-align: center;
+    }
+    .FuentePedri {
+        font-size: 20px;
+    }
+
+    .navFuentePedri{
+        font-size: 20px;
+    }
+    .DestTexto{
+        font-size: 30px;
+    }
+    .DestTitulo {
+        border: thin solid black;
+        background: rgb(248,186,40);
+        font-size: 40px;
+        text-align: center;
+    }
+    .FuenteDest{
+        font-size: 20px;
+    }
+    .navFuenteDest{
+        font-size: 20px;
+    }
+    /*Menu de Navegacion Fichaje*/
+     /* Ancho de celda*/
+     nav ul li a {
+
+        display: block;
+        width: 100%;
+        text-align: center;        
+        color: white;
+    }
+
+/*Tipo de Tabla*/
+    nav ul {
+        margin-top: 50px;
+        list-style: square;
+        color:black;
+       /* margin: 5;*/
+    }
+  
+
+/*FOOTER*/
+    footer {
+        text-align: center;
+        font-size: large;
+        color:white;
+        clear:both;
+
+    }
+    }   
+
+
+
+
