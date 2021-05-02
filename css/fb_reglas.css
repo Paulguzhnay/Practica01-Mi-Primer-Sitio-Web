@@ -1,22 +1,27 @@
 @charset "utf-8";
 
-/*
-CREACION DE LA TABLA 
-
-*/
-
 @media only screen and (min-width: 481px) {
-
-
+    body{
+        background-color:rgb(50,51,102);
+        }
+    
+        header img {
+            float: none;
+            width: 98%;
+            margin: 2% 2% 2% 2%;
+        }
+/*CREACION TABLA PARA TODOS LOS HTML*/
 /* Ancho de celda*/
 nav ul li {
     display: table-cell;
     width: 3%;
     text-align: center;
-    border: thin solid black;
-    
+    border: thin solid black;   
 }
-
+nav a{
+    font-size: 25px;
+    color:rgb(248,186,40);
+}
 /*Ancho de la tabla*/
 nav {
     display: table;
@@ -28,21 +33,16 @@ nav ul {
     display: table-row;
     margin: 5;
 }
-
-
+    /*footer*/
     footer {
         text-align: center;
         font-size: large;
+        color:white
     }
     }    
     /* a*/
     a{
         color: white;
-    }
-
-    /*footer*/
-    footer{
-        color:white
     }
 
     .mail{
@@ -176,3 +176,4 @@ nav ul {
 
 
     /*--------------------------------------------------------------------------------------------------------------------------*/
+}

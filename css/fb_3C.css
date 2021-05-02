@@ -33,6 +33,19 @@ body{
         margin:20px;
     }
 
+    .AsideI img{
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .Aside2 img{
+        width: 400px;
+        height: 400px; 
+    }
+
+
+
     /*Modificaciones de Texto*/
 
     h1{
@@ -61,5 +74,27 @@ body{
     .ArticleFooter{
         text-align: center;
         font-size: 25px;
-        background-color: rgb(50,51,102);;
+        background-color: rgb(50,51,102);
     }
+
+    /*NAVEGACION */
+    nav ul li {
+        display: table-cell;
+        width: 3%;
+        text-align: center;
+        border: thin solid black;
+        
+    }
+    
+    /*Ancho de la tabla*/
+    nav {
+        display: table;
+        width: 100%;
+        margin:3;
+    }
+    /*Tipo de Tabla*/
+    nav ul {
+        display: table-row;
+        margin: 5;
+    }   
+  

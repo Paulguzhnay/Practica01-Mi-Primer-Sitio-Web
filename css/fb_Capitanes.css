@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 481px) {
+
+    body{
+        background-color:rgb(50,51,102);
+        font-family: Arial;
+    }
+    
+.TablaC{
+    background: rgb(248,186,40);;
+    
+    margin: 150px auto;
+    text-align: center;
+    border: 1px solid;
+    width: 700px;
+    height: 400px;
+    border-collapse: collapse; /**/
+}
+
+.TablaC td{
+    color: black;
+    text-align: center;
+    border: 1px solid;
+}
+
+.TablaC th{
+    color: black;
+    text-align: center;
+    border: 1px solid;
+}
+    
+.TablaC td:hover{
+
+    background-color: cornsilk;
+} 
+
+.Cimagen{
+    width: 100px;
+    height: 100px;
+}
+
+.CMasia{
+    font-size: 50px;
+}
+
+.MasiaT{
+    font-size: 70px;
+}
+}

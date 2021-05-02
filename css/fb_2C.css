@@ -10,6 +10,7 @@ body{
     }
 
 article{
+    margin-top: 35px;
     margin-right: 55px;
     width: 70%;
     height: 600px;
@@ -20,11 +21,29 @@ article{
 }
 
 aside{
+    margin-top: 35px;
     margin-left: 50px;
     width: 20%;
-    height: 400px;
-    background-color:rgb(50,51,102);
+    height: 600px;
+    background-color:red;
     float: left;
+    border: thin solid black;
+}
+
+.AsideFooter{
+    width: 20%;
+    height: 150px;
+    background-color: rgb(50,51,102);
+    border: thin solid rgb(50,51,102);
+}
+
+.ArticleFooter{
+    border: thin solid rgb(50,51,102);
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(50,51,102);
+    width: 70%;
+    height: 150px;    
 
 }
 
@@ -33,6 +52,11 @@ aside{
     height: 230px;
 }
 .Dest img{
+    width: 300px;
+    height: 200px;
+}
+
+.ImgClub img{
     width: 300px;
     height: 200px;
 }
@@ -49,11 +73,11 @@ aside{
         text-align: center;
     }
     .FuentePedri {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .navFuentePedri{
-        font-size: 20px;
+        font-size: 30px;
     }
     .DestTexto{
         font-size: 30px;
@@ -65,41 +89,46 @@ aside{
         text-align: center;
     }
     .FuenteDest{
-        font-size: 20px;
+        font-size: 30px;
     }
     .navFuenteDest{
+        font-size: 30px;
+    }
+
+    .ClubP{
+        border: thin solid black;
+        background: rgb(248,186,40);
+        font-size: 40px;
+        text-align: center;
+    }
+    .TextC{
+        text-align: center;
         font-size: 20px;
     }
+
+
     /*Menu de Navegacion Fichaje*/
-     /* Ancho de celda*/
-     nav ul li a {
-
-        display: block;
-        width: 100%;
-        text-align: center;        
-        color: white;
-    }
-
-/*Tipo de Tabla*/
-    nav ul {
-        margin-top: 50px;
-        list-style: square;
-        color:black;
-       /* margin: 5;*/
-    }
-  
-
-/*FOOTER*/
-    footer {
-        text-align: center;
-        font-size: large;
-        color:white;
-        clear:both;
-        font-size: large;
-
-    }
+/* Ancho de celda*/
+nav ul li {
+    display: table-cell;
+    width: 3%;
+    text-align: center;
+    border: thin solid black;
     
-    .NavText{
+}
+
+/*Ancho de la tabla*/
+nav {
+    display: table;
+    width: 100%;
+    margin:3;
+}
+/*Tipo de Tabla*/
+nav ul {
+    display: table-row;
+    margin: 5;
+}   
+.NavText{
         font-size: 25px;
         color:rgb(248,186,40);
     }
