@@ -11,24 +11,55 @@ body{
 
     aside{
         width: 20%;
-        height: 200px;
+        height: 400px;
          float: left; 
-        background-color: white;
+      
         margin:20px;
     }
     article{
         width: 38%;
-        height: 200px;
+        height: 400px;
         float: left;
-        background-color: red;
+        background-color:red;
+    
         margin:20px;
        
     
     }
     .Aside2{
         width: 20%;
-        height: 200px;
+        height: 400px;
         float: left;
-        background-color: yellow;
         margin:20px;
+    }
+
+    /*Modificaciones de Texto*/
+
+    h1{
+        font-size: 30px;
+        text-align: center;
+        border: thin solid black;
+        background-color: rgb(248,186,40);
+    }
+    p{
+        font-size: 25px;
+    }
+
+    div img{
+        width: 200px;
+        height: 125px;
+    }
+
+    .TextoN{
+        font-size: 25px;
+        color:rgb(248,186,40);
+    }
+    .NavText{
+        font-size: 25px;
+        color:rgb(248,186,40);
+    }
+    .ArticleFooter{
+        text-align: center;
+        font-size: 25px;
+        background-color: rgb(50,51,102);;
     }

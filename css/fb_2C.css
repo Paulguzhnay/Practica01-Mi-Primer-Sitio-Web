@@ -95,9 +95,14 @@ aside{
         font-size: large;
         color:white;
         clear:both;
+        font-size: large;
 
     }
-    }   
+    
+    .NavText{
+        font-size: 25px;
+        color:rgb(248,186,40);
+    }
 
 
 
