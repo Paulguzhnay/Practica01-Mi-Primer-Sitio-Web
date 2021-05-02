@@ -43,7 +43,8 @@ aside{
     font-size: 25px;
     background-color: rgb(50,51,102);
     width: 70%;
-    height: 150px;    
+    height: 150px; 
+    color: white;   
 
 }
 
@@ -107,7 +108,7 @@ aside{
     }
 
 
-    /*Menu de Navegacion Fichaje*/
+    /*Menu de Navegacion */
 /* Ancho de celda*/
 nav ul li {
     display: table-cell;

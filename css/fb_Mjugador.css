@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 481px) {
+
+    body{
+        background-color:rgb(50,51,102);
+        font-family: Arial;
+    }
+    header img {
+        float: none;
+        width: 98%;
+        margin: 2% 2% 2% 0%;
+    }
+
+    p{
+        text-align: center;
+        font-size: 25px;
+        border: thin solid black;
+        background: red;
+
+    }
+    h2{
+        text-align: center;
+        border: thin solid black;
+        background: rgb(248,186,40);
+        border-radius: 10px;
+        font-size: 35px;
+    }
+
+    h1{
+        text-align: center;
+        border: thin solid black;
+        background: rgb(248,186,40);
+        border-radius: 10px;
+        font-size: 50px;
+    }
+    .MessiB img{
+        width: 500px;
+        height: 500px;
+    }
+    .AsideFuente{
+        font-size: 15px;
+        color: black;
+    }
+
+}

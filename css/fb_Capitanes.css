@@ -6,9 +6,13 @@
         background-color:rgb(50,51,102);
         font-family: Arial;
     }
-    
+    header img {
+        float: none;
+        width: 98%;
+        margin: 2% 2% 2% 0%;
+    }
 .TablaC{
-    background: rgb(248,186,40);;
+    background: rgb(248,186,40);
     
     margin: 150px auto;
     text-align: center;
