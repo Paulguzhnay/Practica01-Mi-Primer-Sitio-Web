@@ -1,4 +1,11 @@
 @charset "utf-8";
+@font-face {
+    font-family: font;
+    src: url("../Letra/PTSerif-Italic.ttf");
+}
+*{
+    font-family:font;
+}
 body{
     background-color:rgb(50,51,102);
     }
@@ -115,7 +122,7 @@ nav ul li {
     width: 3%;
     text-align: center;
     border: thin solid black;
-    
+    background: rgb(248,186,40);
 }
 
 /*Ancho de la tabla*/
@@ -123,15 +130,17 @@ nav {
     display: table;
     width: 100%;
     margin:3;
+    background: rgb(248,186,40);
 }
 /*Tipo de Tabla*/
 nav ul {
     display: table-row;
     margin: 5;
+
 }   
 .NavText{
         font-size: 25px;
-        color:rgb(248,186,40);
+        color:black;
     }
 
 

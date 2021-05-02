@@ -1,10 +1,18 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: font;
+    src: url("../Letra/PTSerif-Italic.ttf");
+}
+*{
+    font-family:font;
+}
 @media only screen and (min-width: 481px) {
 
     body{
         background-color:rgb(50,51,102);
-        font-family: Arial;
+        font-family: 'PT Serif', serif;
+    
     }
     header img {
         float: none;
