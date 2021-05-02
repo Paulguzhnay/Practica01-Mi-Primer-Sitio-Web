@@ -1,0 +1,83 @@
+@charset "utf-8";
+body{
+    background-color:rgb(50,51,102);
+    }
+
+    header img {
+        float: none;
+        width: 98%;
+        margin: 2% 2% 2% 2%;
+    }
+
+    article{
+        margin-top: 35px;
+        margin-left: 140px;
+        width: 50%;
+        height: 300px;
+        background-color: red;
+        float: left;
+        border:  thin solid black;
+        position: relative;
+    }
+    
+    aside{
+        margin-top: 35px;
+        margin-right: 50px;
+        width: 40%;
+        height: 350px;
+        background-color:rgb(50,51,102);
+        float: right;
+    }
+
+    .ArticleF{
+        margin-top: 35px;
+        margin-left: 140px;
+        width: 50%;
+        height: 300px;
+        background-color: rgb(50,51,102);
+        float: left;
+        border:  thin solid rgb(50,51,102);
+        position: relative;
+    }
+    
+    .AsideF{
+        margin-top: 35px;
+        margin-right: 50px;
+        width: 40%;
+        height: 350px;
+        background-color:rgb(50,51,102);
+        float: right;
+    }
+
+input{
+    width: 300px;
+    height: 50px;
+}
+textarea{
+    text-align: center;
+    width: 930px;
+    height: 70px;
+    margin-top: 5px;
+}
+input[type=submit]{
+    text-align: center;
+    color:black;
+    width: 300px;
+    height: 100px;
+}
+::-webkit-input-placeholder{
+    color:black;
+}
+
+.EscudoB {
+    width: 400px;
+    height: 400px; 
+}
+
+
+
+
+
+
+
+

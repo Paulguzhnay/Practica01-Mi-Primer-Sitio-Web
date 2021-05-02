@@ -51,4 +51,11 @@
 .MasiaT{
     font-size: 70px;
 }
+    /*footer*/
+
+footer {
+        text-align: center;
+        font-size: large;
+        color:white
+    }
 }

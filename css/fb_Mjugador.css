@@ -42,5 +42,12 @@
         font-size: 15px;
         color: black;
     }
+        /*footer*/
 
+
+}
+footer {
+    text-align: center;
+    font-size: 25px;
+    color:white
 }
