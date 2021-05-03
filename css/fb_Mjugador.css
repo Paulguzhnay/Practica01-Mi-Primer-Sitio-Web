@@ -59,3 +59,30 @@ footer {
     font-size: 25px;
     color:white
 }
+
+.imagen{
+width: 500px;
+height: 500px;
+}
+
+.NavegacionM nav a{
+    font-size: 25px;
+   color: black;
+}
+/*Ancho de la tabla*/
+.NavegacionM nav {
+    display: table;
+    width: 100%;
+    margin:3px;
+    background: red;
+}
+/*Tipo de Tabla*/
+.NavegacionM nav ul {
+    display: table-row;
+    margin: 5;
+}
+
+
+.NavTextI{
+    background-color: red ;
+}
